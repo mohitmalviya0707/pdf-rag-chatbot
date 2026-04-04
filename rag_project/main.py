@@ -66,4 +66,4 @@ while True:
 
     response = llm.invoke(final_prompt)
 
-    print("AI:", response.content)
+    print("AI:", response.content)               1234567890
