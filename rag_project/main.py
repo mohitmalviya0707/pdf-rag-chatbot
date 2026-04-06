@@ -9,7 +9,7 @@ from langchain_community.document_loaders import TextLoader
 load_dotenv()             
 
 
-loader = TextLoader("notes.txt")
+loader = TextLoader("notes.txt")  
 documents = loader.load()
 
 
