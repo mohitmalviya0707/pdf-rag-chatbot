@@ -6,7 +6,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.document_loaders import TextLoader
 
-load_dotenv()
+load_dotenv()             
 
 
 loader = TextLoader("notes.txt")
